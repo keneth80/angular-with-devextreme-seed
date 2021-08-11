@@ -10,6 +10,14 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
+## User Component create command
+
+Run `ng generate component common/components/{componentName}`
+
+## User Page Module create command
+
+Run `ng generate module pages/{pageName} --routing=true && ng g component pages/{pageName} -m={pageName}`
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
