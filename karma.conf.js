@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/angular-with-devextreme-seed'),
+      dir: require('path').join(__dirname, './coverage/nepsis-ui'),
       subdir: '.',
       reporters: [
         { type: 'html' },

@@ -46,7 +46,6 @@ export class AuthenticationService {
 
   @CatchAll
   login(userId: string, password: string) {
-    // this.http.post<any>(`${this.apiUrl}/users/authenticate`, { userId, password })
     // this.samplApiService.login(userId, password)
     //     .subscribe(
     //         (data: UserModel) => {

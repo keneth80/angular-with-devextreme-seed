@@ -31,8 +31,6 @@ export class CodeManagerComponent implements AfterViewInit {
   data: any;
   currentData: string[] = [];
 
-
-
   constructor(
     service: Service
   ) {

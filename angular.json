@@ -6,7 +6,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "temp-app": {
+    "nepsis-ui": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -42,7 +42,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/temp-app",
+            "outputPath": "dist/nepsis-ui",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -115,10 +115,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "temp-app:build:production"
+              "browserTarget": "nepsis-ui:build:production"
             },
             "development": {
-              "browserTarget": "temp-app:build:development"
+              "browserTarget": "nepsis-ui:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -126,7 +126,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "temp-app:build"
+            "browserTarget": "nepsis-ui:build"
           }
         },
         "test": {
@@ -150,5 +150,5 @@
       }
     }
   },
-  "defaultProject": "temp-app"
+  "defaultProject": "nepsis-ui"
 }
